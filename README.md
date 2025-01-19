@@ -38,7 +38,7 @@ Tambien, podeis mirar la documentacion oficial de Microsoft:
 Una vez hallamos desplegado el modelo siguiendo los pasos del video anterior, clonaremos este repositorio en nuestro dispositivo. usando el siguiente comando
 
 ```bash
-git clone  https://github.com/SergioFerrerasRuizPractica11_MV_AZURE_SPARK.git
+git clone https://github.com/SergioFerrerasRuiz/Despliegue-de-un-modelo-Whisper-en-Azure.git
 ```
 #### Creacion de un archivo ``.env``
 Despues de haber clonado el repositorio, crearemos un archivo env, donde almacenaremos la ``Key`` y el ``Endpoint`` de nuestro modelo.
