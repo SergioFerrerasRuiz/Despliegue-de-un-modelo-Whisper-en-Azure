@@ -1,0 +1,4 @@
+Modelos a investigar Whisper y Whisper X.
+
+Despliegue de un modelo Whisper en Azure: https://learn.microsoft.com/es-es/azure/ai-services/openai/how-to/create-resource?pivots=web-portal
+Uso de un modelo Whisper ya desplegado en Azure: https://learn.microsoft.com/es-es/azure/ai-services/openai/whisper-quickstart?tabs=command-line%2Cpython-new%2Ckeyless%2Cjavascript-keyless%2Ctypescript-keyless&pivots=programming-language-dotnet
