@@ -11,13 +11,14 @@ client = AzureOpenAI(
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
 )
 
-deployment_id = "WhisperTest"  # Este es el nombre personalizado de tu despliegue.
-audio_test_file = "./prueba.ogg"
+      # Este es el nombre personalizado de tu despliegue.
+audio_test_file = "./prueba2.ogg"
+deployment_id = "WhisperTest"
 
 result = client.audio.transcriptions.create(
     file=open(audio_test_file, "rb"),            
     model=deployment_id,
-    language="es"
+    language="es-ES"
 )
 
 print("El texto transcrito es: "+str(result.text))
